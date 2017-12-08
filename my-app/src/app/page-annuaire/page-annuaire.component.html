@@ -1,3 +1,6 @@
-<p>
-  page-annuaire works!
-</p>
+<h2>Annuaire</h2>
+<ul class="annuaire">
+  <li *ngFor="let number of numeros">
+    <span class="numero">{{number.num}} : </span> {{number.name}} 
+  </li>
+</ul>

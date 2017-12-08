@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NUMEROS } from './mock-annuaires';
 
 @Component({
   selector: 'app-page-annuaire',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageAnnuaireComponent implements OnInit {
 
+  numeros = NUMEROS;
+  
   constructor() { }
 
   ngOnInit() {

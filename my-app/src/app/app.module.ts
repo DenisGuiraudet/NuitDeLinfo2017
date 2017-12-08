@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 import { AppComponent } from './app.component';
 import { PageFormationComponent } from './page-formation/page-formation.component';
@@ -28,7 +29,7 @@ import { PagePratiqueComponent } from './page-pratique/page-pratique.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule, MatButtonModule, AppRoutingModule
+    MatToolbarModule, MatButtonModule, AppRoutingModule, MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

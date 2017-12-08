@@ -5,16 +5,17 @@ div.main {
 }
 
 div.top {
-  width: 100%;
+  width: calc(100% - 20px);
   display: flex;
+  margin: 0 10px;
 }
 
 button {
   flex: 1;
-  margin: 20px auto;
+  margin: 20px 10px 0 10px;
 }
 
 .bottom {
-  margin: 0 20px 20px 20px;
+  margin: 20px;
   flex: 1;
 }

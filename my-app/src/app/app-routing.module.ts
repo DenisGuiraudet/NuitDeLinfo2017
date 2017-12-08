@@ -7,8 +7,11 @@ import { PageAidComponent } from './page-aid/page-aid.component';
 import { PageAnnuaireComponent } from './page-annuaire/page-annuaire.component';
 import { PageBlogComponent } from './page-blog/page-blog.component';
 import { PagePratiqueComponent } from './page-pratique/page-pratique.component';
+import { PagePresentationComponent } from './page-presentation/page-presentation.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/page-presentation', pathMatch: 'full' },
+  { path: 'page-presentation', component: PagePresentationComponent },
   { path: 'page-pratique', component: PagePratiqueComponent },
   { path: 'page-formation', component: PageFormationComponent },
   { path: 'page-stat', component: PageStatComponent },

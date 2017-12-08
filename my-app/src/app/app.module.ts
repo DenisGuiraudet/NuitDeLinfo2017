@@ -14,6 +14,7 @@ import { PageAnnuaireComponent } from './page-annuaire/page-annuaire.component';
 import { PageBlogComponent } from './page-blog/page-blog.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { PagePratiqueComponent } from './page-pratique/page-pratique.component';
+import { PagePresentationComponent } from './page-presentation/page-presentation.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PagePratiqueComponent } from './page-pratique/page-pratique.component';
     PageAidComponent,
     PageAnnuaireComponent,
     PageBlogComponent,
-    PagePratiqueComponent
+    PagePratiqueComponent,
+    PagePresentationComponent
   ],
   imports: [
     BrowserModule,

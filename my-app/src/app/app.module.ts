@@ -5,6 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
 
 import { AppComponent } from './app.component';
 import { PageFormationComponent } from './page-formation/page-formation.component';
@@ -31,7 +32,11 @@ import { PagePresentationComponent } from './page-presentation/page-presentation
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule, MatButtonModule, AppRoutingModule, MatCardModule
+    MatToolbarModule,
+    MatButtonModule,
+    AppRoutingModule,
+    MatCardModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

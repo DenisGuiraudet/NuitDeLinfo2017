@@ -1,6 +1,18 @@
-<h2>Annuaire</h2>
-<ul class="annuaire">
-  <li *ngFor="let number of numeros">
-    <span class="numero">{{number.num}} : </span> {{number.name}} 
-  </li>
-</ul>
+
+<div class="main">
+
+  <mat-card>
+
+    <mat-card-title>
+      Annuaire
+    </mat-card-title>
+
+    <mat-list role="list">
+      <mat-list-item role="listitem" *ngFor="let number of numeros">
+        {{number.num}} : {{number.name}}
+      </mat-list-item>
+    </mat-list>
+
+  </mat-card>
+
+</div>

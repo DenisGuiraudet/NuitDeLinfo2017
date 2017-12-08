@@ -1,0 +1,11 @@
+
+#myCards{
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+mat-card{
+  margin: 10px auto;
+  width: 400px;
+}
